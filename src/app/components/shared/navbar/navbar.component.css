@@ -1,0 +1,51 @@
+.navbar-brand {
+    width: 20%;
+    min-width: 200px;
+    max-width: 300px
+}
+
+.navbar img {
+    width: 100%
+}
+
+@media (max-width:728px) {
+    .info {
+        height: 70PX
+    }
+}
+
+@media (max-width:360px) {
+    .info {
+        height: 90PX
+    }
+}
+
+.dropdown-menu a:hover {
+    color: #fd852f
+}
+
+ul li a {
+    font-size: 1.2rem;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+ul li a:hover {
+    color: #fd852f
+}
+
+.collapse {
+    margin-left: 5%
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    background-color: #fff !important;
+    width: 100%;
+    z-index: 999;
+    box-shadow: 0 3px 3px rgba(133, 129, 130, .5)
+}
+
+.dropdown-menu a:active {
+    background-color: #fff
+}

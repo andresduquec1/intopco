@@ -1,0 +1,30 @@
+<div class="animated fadeInLeft">
+    <h2>Trabaja con nosotros</h2>
+    <p>En Intopco Nos llena de orgullo saber que quieres ser parte de nuestro equipo. Envianos tu hoja de vida indicando el cargo al cual deseas aplicar.
+    </p>
+    <div class="formulario">
+        <form action="envio2.php" method="POST" enctype="multipart/form-data">
+            <div class="form-group">
+                <label for="nombre">Nombre</label>
+                <input type="text" name="nombre" class="form-control" id="formGroupExampleInput" placeholder="Nombres y apelidos" required>
+            </div>
+            <div class="form-group">
+                <label for="telefono">Teléfono</label>
+                <input type="text" name="telefono" class="form-control" id="formGroupExampleInput2" placeholder="**********" required>
+            </div>
+            <div class="form-group">
+                <label for="correo">Correo</label>
+                <input type="mail" name="correo" class="form-control" id="formGroupExampleInput2" placeholder="ejemplo@mail.com" required>
+            </div>
+            <div class="form-group">
+                <label for="mensaje">Mensaje</label>
+                <textarea name="mensaje" class="form-control" id="exampleFormControlTextarea1" rows="3" required></textarea>
+            </div>
+            <div class="form-group">
+                <input type="file" name="adjunto" class="form-control-file" id="exampleFormControlFile1">
+            </div>
+            <button class="submit" value="Enviar correo" name="submit">Enviar</button>
+        </form>
+    </div>
+</div>
+<!--Fin contactenos-->

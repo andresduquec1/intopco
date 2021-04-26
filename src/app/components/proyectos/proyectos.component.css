@@ -1,0 +1,30 @@
+.card {
+    height: 650px;
+}
+
+.card img {
+    height: 370px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.card-columns .card {
+    margin-bottom: .75rem;
+}
+
+.card .footer {
+    height: 7px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #eb9019;
+}
+
+h5,
+p {
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.modal-body img {
+    width: 100%;
+}

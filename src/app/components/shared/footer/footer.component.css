@@ -1,0 +1,31 @@
+.footer-copyright {
+    position: relative;
+    bottom: 0;
+    overflow: hidden;
+    clear: both;
+    color: #000;
+    border-top: 1px solid #bdb8b8;
+}
+
+.footer {
+    display: flex;
+    box-sizing: border-box;
+    border-top: 1px solid #bdb8b8;
+    padding-top: 15px !important;
+    clear: both;
+}
+
+.footer p {
+    width: 33%;
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.footer-copyright .pie {
+    text-align: center;
+}
+
+.footer-copyright .pie img {
+    max-width: 150px;
+}

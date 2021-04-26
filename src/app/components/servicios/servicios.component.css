@@ -1,0 +1,39 @@
+.animated {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+.fadeIn {
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+}
+
+.card {
+    height: 450px;
+}
+
+@media (min-width: 576px) {
+    .card-columns .card {
+        display: inline-block;
+        width: 100%;
+    }
+}
+
+.card-columns .card {
+    margin-bottom: .75rem;
+}
+
+.card .footer {
+    height: 7px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #eb9019;
+}
+
+h5,
+p {
+    font-family: 'PT Sans Narrow', sans-serif;
+}

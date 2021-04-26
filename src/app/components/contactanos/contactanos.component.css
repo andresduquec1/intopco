@@ -1,0 +1,62 @@
+.formulario {
+    width: 50%;
+    padding: 30px;
+    display: inline-block;
+}
+
+.redes {
+    width: 50%;
+    padding: 30px;
+    float: right;
+}
+
+.redes span {
+    display: block;
+}
+
+.redes span {
+    font-size: 1.5rem;
+}
+
+.redes .fab {
+    font-size: 60px;
+    margin-right: 20px;
+    color: #0d0505;
+}
+
+.redes .whatsapp {
+    margin-top: 20px;
+}
+
+button.submit {
+    padding: 9px 17px;
+    font-family: Helvetica, calibri, Arial, sans-serif;
+    font-weight: 700;
+    line-height: 1;
+    color: #444;
+    border: 1px solid #f1f1f1;
+    text-shadow: 0 1px 1px rgba(255, 255, 255, .85);
+    background-image: -moz-linear-gradient(0 100% 90deg, #bbb, #fff);
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .5);
+    outline: 0;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 60px;
+    max-height: 200px;
+}
+
+#instagram:hover {
+    background: linear-gradient(#405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d, #f56040, #f77737, #fcaf45, #ffdc80);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+#facebook:hover {
+    background: #3b5998;
+    -webkit-background-clip: text;
+    color: transparent;
+}

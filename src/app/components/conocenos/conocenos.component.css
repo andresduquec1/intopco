@@ -1,0 +1,38 @@
+.card {
+    padding: 15px;
+    margin-bottom: 30px;
+}
+
+h5 {
+    font-size: 1.6rem;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+p {
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 1.3rem;
+}
+
+#sig {
+    padding: 0;
+}
+
+.card-header {
+    background-color: #eb6d19;
+    color: black;
+    font-size: 1.3rem;
+}
+
+.psg {
+    width: 80%;
+    margin: auto;
+}
+
+.psg img {
+    width: 100%;
+}
+
+li:hover {
+    background-color: rgba(177, 197, 202, 0.3);
+    cursor: default;
+}
